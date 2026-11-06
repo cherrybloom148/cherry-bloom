@@ -1,4 +1,5 @@
 <?php
+//cambiar root
 $conexion = new mysqli("localhost", "root", "", "cherry_bloom");
 
 if ($conexion->connect_error) {
